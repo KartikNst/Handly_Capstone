@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handly - Handmade. Heartfelt. Handly.</title>
+    <link rel="stylesheet" href="css/handly.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <a href="#home">Handly</a>
+                    </div>
+                    
+                    <div class="search-bar">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" placeholder="Search handmade items…">
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#sell">Sell on Handly</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    
+                    <div class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#sell">Sell on Handly</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Handmade. Heartfelt. Handly.</h1>
+            <p class="hero-subtitle fade-in">Discover unique, handcrafted treasures from independent artisans around the world</p>
+            <button class="btn-primary fade-in">Shop Now</button>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">Featured Categories</h2>
+            <p class="section-subtitle">Explore our curated collections</p>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3 class="category-name">Jewelry</h3>
+                    <p class="category-description">Handcrafted rings, necklaces & earrings</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="category-name">Art</h3>
+                    <p class="category-description">Original paintings & illustrations</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3 class="category-name">Décor</h3>
+                    <p class="category-description">Unique home & living items</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3 class="category-name">Clothing</h3>
+                    <p class="category-description">Custom & vintage fashion</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3 class="category-name">Digital Prints</h3>
+                    <p class="category-description">Downloadable art & designs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products" id="shop">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <p class="section-subtitle">Handpicked items from talented creators</p>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img class="product-image" src="https://i.pinimg.com/1200x/44/1e/9c/441e9cae53f92498fc77f87317d5cf32.jpg">
+                        <div class="product-badge">New</div>
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <div class="product-placeholder">
+                            <i class="fas fa-ring"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Handcrafted Silver Ring</h3>
+                        <p class="product-artist">by SilverCreations</p>
+                        <div class="product-footer">
+                            <span class="product-price">$45.00</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img class="product-image" src="https://i.pinimg.com/1200x/e6/8d/1c/e68d1c115fcbc99195e15486dc979670.jpg">
+
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <div class="product-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Abstract Watercolor Art</h3>
+                        <p class="product-artist">by ArtByEmily</p>
+                        <div class="product-footer">
+                            <span class="product-price">$120.00</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img class="product-image" src="https://i.pinimg.com/1200x/bf/3f/b0/bf3fb040cb1f77bbeb7586e3dcb541e7.jpg">
+
+                        <div class="product-badge bestseller">Bestseller</div>
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <div class="product-placeholder">
+                            <i class="fas fa-candle-holder"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Ceramic Vase Set</h3>
+                        <p class="product-artist">by ClayWorks Studio</p>
+                        <div class="product-footer">
+                            <span class="product-price">$65.00</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img class="product-image" src="https://i.pinimg.com/736x/0e/c2/8b/0ec28b294bb4fb741d12b763d240969d.jpg">
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <div class="product-placeholder">
+                            <i class="fas fa-hat-cowboy"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Knitted Wool Sweater</h3>
+                        <p class="product-artist">by CozyKnits</p>
+                        <div class="product-footer">
+                            <span class="product-price">$85.00</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img class="product-image" src="https://i.pinimg.com/1200x/96/4e/7a/964e7ac0aa7c1cde65b8dd9332464163.jpg">
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <div class="product-placeholder">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Mountain Print Bundle</h3>
+                        <p class="product-artist">by DigitalArtCo</p>
+                        <div class="product-footer">
+                            <span class="product-price">$15.00</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img class="product-image" src="https://i.pinimg.com/736x/96/a2/4c/96a24cb50ca0889bc202dfdc698a2128.jpg">
+                        <div class="product-badge">New</div>
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <div class="product-placeholder">
+                            <i class="fas fa-feather"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Macramé Wall Hanging</h3>
+                        <p class="product-artist">by BohoHome</p>
+                        <div class="product-footer">
+                            <span class="product-price">$55.00</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <button class="btn-secondary">View All Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Why Choose Handly?</h2>
+                    <p>At Handly, we believe in the power of handmade. Every item in our marketplace tells a story — crafted with passion, skill, and love by independent artisans and small businesses from around the world.</p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <div>
+                                <h3>Support Independent Artisans</h3>
+                                <p>Every purchase directly supports creators and small businesses pursuing their dreams.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <h3>Unique & One-of-a-Kind</h3>
+                                <p>Find items you won't see anywhere else — handcrafted with care and attention to detail.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <i class="fas fa-leaf"></i>
+                            <div>
+                                <h3>Sustainable Shopping</h3>
+                                <p>Choose quality over quantity and support sustainable, eco-friendly craftsmanship.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary" id="sell">Start Selling on Handly</button>
+                </div>
+                
+                <div class="about-image">
+                    <div class="about-placeholder">
+                        <i class="fas fa-hands"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Stay Connected</h3>
+                    <p>Subscribe to our newsletter for the latest handcrafted treasures and artisan stories.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn-subscribe">Subscribe</button>
+                    </form>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#sell">Sell on Handly</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#help">Help Center</a></li>
+                        <li><a href="#shipping">Shipping Info</a></li>
+                        <li><a href="#returns">Returns</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#pinterest" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#twitter" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Handly. All rights reserved. Made with <i class="fas fa-heart"></i> by independent creators.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
