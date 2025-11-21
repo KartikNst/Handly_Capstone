@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Handly</title>
+    <link rel="stylesheet" href="css/handly.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="handly.html" class="logo">Handly</a>
+            <ul class="nav-links">
+                <li><a href="handly.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="shop-hero">
+        <h1>Handmade Marketplace</h1>
+        <p>Discover thousands of unique, handcrafted items from local artisans</p>
+    </section>
+
+    <section class="filters">
+        <div class="filter-container">
+            <div class="filter-group">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="">All Categories</option>
+                    <option value="textiles">Textiles</option>
+                    <option value="pottery">Pottery</option>
+                    <option value="woodwork">Woodwork</option>
+                    <option value="jewelry">Jewelry</option>
+                    <option value="art">Art</option>
+                    <option value="home-decor">Home Decor</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="price">Price Range:</label>
+                <select id="price">
+                    <option value="">Any Price</option>
+                    <option value="0-500">Under ₹500</option>
+                    <option value="500-1500">₹500 - ₹1,500</option>
+                    <option value="1500-3000">₹1,500 - ₹3,000</option>
+                    <option value="3000+">Over ₹3,000</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option value="featured">Featured</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="newest">Newest</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="products-grid">
+            <a href="product-detail.html" style="text-decoration: none; color: inherit;">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/46/88/86/4688860f0e094723599629726b7fe0f9.jpg" alt="Handwoven Silk Scarf" class="product-image">
+                    <div class="product-info">
+                        <div class="product-title">Handwoven Silk Scarf</div>
+                        <div class="product-price">₹1,299</div>
+                        <div class="product-seller">by ArtisanCrafts</div>
+                    </div>
+                </div>
+            </a>
+            <a href="product-detail.html" style="text-decoration: none; color: inherit;">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/03/00/bf/0300bf820a824484ba780e60c94a0287.jpg" alt="Ceramic Tea Set" class="product-image">
+                    <div class="product-info">
+                        <div class="product-title">Ceramic Tea Set</div>
+                        <div class="product-price">₹2,499</div>
+                        <div class="product-seller">by ClayCreations</div>
+                    </div>
+                </div>
+            </a>
+            <a href="product-detail.html" style="text-decoration: none; color: inherit;">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/0e/d9/21/0ed921cdb0a43f80fe88707ec158618c.jpg" alt="Wooden Jewelry Box" class="product-image">
+                    <div class="product-info">
+                        <div class="product-title">Wooden Jewelry Box</div>
+                        <div class="product-price">₹899</div>
+                        <div class="product-seller">by WoodWonders</div>
+                    </div>
+                </div>
+            </a>
+            <a href="product-detail.html" style="text-decoration: none; color: inherit;">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/a2/bc/09/a2bc09fa7fa1be7e1e1365e5ad7bb8a5.jpg" alt="Handmade Leather Bag" class="product-image">
+                    <div class="product-info">
+                        <div class="product-title">Handmade Leather Bag</div>
+                        <div class="product-price">₹3,199</div>
+                        <div class="product-seller">by LeatherLux</div>
+                    </div>
+                </div>
+            </a>
+            <a href="product-detail.html" style="text-decoration: none; color: inherit;">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/b5/1e/71/b51e716ddd4876a3669c9b22fc864e4b.jpg" alt="Hand-painted Silk Saree" class="product-image">
+                    <div class="product-info">
+                        <div class="product-title">Hand-painted Silk Saree</div>
+                        <div class="product-price">₹4,599</div>
+                        <div class="product-seller">by SilkArtistry</div>
+                    </div>
+                </div>
+            </a>
+            <a href="product-detail.html" style="text-decoration: none; color: inherit;">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/a6/cc/a8/a6cca8616d6ad8e19e9781de7b9dba01.jpg" alt="Brass Home Temple" class="product-image">
+                    <div class="product-info">
+                        <div class="product-title">Brass Home Temple</div>
+                        <div class="product-price">₹1,899</div>
+                        <div class="product-seller">by MetalCrafts</div>
+                    </div>
+                </div>
+            </a>
+            <a href="product-detail.html" style="text-decoration: none; color: inherit;">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/d6/28/7b/d6287b65a434be13b0e82db41b2ab8e8.jpg" alt="Embroidered Cushion Covers" class="product-image">
+                    <div class="product-info">
+                        <div class="product-title">Embroidered Cushion Covers</div>
+                        <div class="product-price">₹649</div>
+                        <div class="product-seller">by ThreadTreasures</div>
+                    </div>
+                </div>
+            </a>
+            <a href="product-detail.html" style="text-decoration: none; color: inherit;">
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/1200x/8a/77/71/8a7771338378adcb95b471c1ff7f3e92.jpg" alt="Handmade Soap Set" class="product-image">
+                    <div class="product-info">
+                        <div class="product-title">Handmade Soap Set</div>
+                        <div class="product-price">₹399</div>
+                        <div class="product-seller">by NaturalEssence</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+            <p>&copy; 2025 Handly. All rights reserved.</p>
+            <p>Empowering artisans, celebrating craftsmanship</p>
+        </div>
+    </footer>
+</body>
+</html>
